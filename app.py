@@ -9,10 +9,10 @@ with open("config.yaml", "r") as file:
 
 # Set up the authenticator
 authenticator = stauth.Authenticate(
-    config["credentials"]["usernames"],  # username-password pair from YAML
+    config["credentials"]["users"],      # username-password pair from YAML
     config["cookie"]["key"],             # secret key for cookie encryption
     config["cookie"]["expiry_days"],     # cookie expiry duration
-    config["preauthorized"]["emails"]    # preauthorized emails
+    config["preauthorized"]["email"]     # preauthorized emails
 )
 
 # Check if the user is authenticated
