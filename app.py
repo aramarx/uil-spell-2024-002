@@ -4,7 +4,7 @@ import yaml
 from yaml.loader import SafeLoader
 
 # Load the credentials from the YAML file
-with open("config.yaml", "r") as file:
+with open("credentials.yaml", "r") as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 # Set up the authenticator
