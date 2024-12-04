@@ -1,30 +1,29 @@
-
 import streamlit as st
 import streamlit_authenticator as stauth
 import yaml
 from yaml.loader import SafeLoader
 
 # Load the credentials from the YAML file
-with open("credentials.yaml", "r") as file:
+with open("config.yaml", "r") as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 # Set up the authenticator
 authenticator = stauth.Authenticate(
-    config["credentials"]["usernames"],
-    config["credentials"]["cookie"]["key"],
-    config["credentials"]["cookie"]["expiry_days"],
-    config["preauthorized"]
+    config["credentials"]["usernames"],  # username-password pair from YAML
+    config["cookie"]["key"],             # secret key for cookie encryption
+    config["cookie"]["expiry_days"],     # cookie expiry duration
+    config["preauthorized"]["emails"]    # preauthorized emails
 )
 
 # Check if the user is authenticated
 name, authentication_status, username = authenticator.login("Login", "main")
 
+# If authenticated, show the app content
 if authentication_status:
     st.title(f"Welcome {name}")
     st.write("You have successfully logged in!")
 
     # Optionally: Redirect to another URL after successful login
-    # st.experimental_rerun()  # Uncomment to refresh the app or
     # st.experimental_redirect("https://spulflaskt05df.vercel.app")  # Redirect to main app
 
 elif authentication_status is False:
