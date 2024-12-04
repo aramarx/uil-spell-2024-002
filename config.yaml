@@ -7,34 +7,35 @@ credentials:
     user5a:
       email: aramarx.us@gmail.com
       name: User Five A
-      password: cheatham5a1
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe  # Example hashed password
     user5b:
       email: aramarx.us@gmail.com
       name: User Five B
-      password: cheatham5b2
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
     user5c:
       email: aramarx.us@gmail.com
       name: User Five C
-      password: cheatham5c3
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
     user5t:
       email: aramarx.us@gmail.com
       name: User Five T
-      password: cheatham5t4
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
     user6a:
       email: aramarx.us@gmail.com
       name: User Six A
-      password: cheatham6a5
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
     user6b:
       email: aramarx.us@gmail.com
       name: User Six B
-      password: cheatham6b6
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
     user6c:
       email: aramarx.us@gmail.com
       name: User Six C
-      password: cheatham6c7
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
     user6t:
       email: aramarx.us@gmail.com
       name: User Six T
-      password: cheatham6t8
+      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
 preauthorized:
-  emails: aramarx.us@gmail.com
+  emails:
+    - aramarx.us@gmail.com
