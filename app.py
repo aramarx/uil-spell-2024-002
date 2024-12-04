@@ -13,6 +13,7 @@ authenticator = stauth.Authenticate(
     config["credentials"]["usernames"],
     config["credentials"]["cookie"]["key"],
     config["credentials"]["cookie"]["expiry_days"],
+    config["preauthorized"]
 )
 
 # Check if the user is authenticated
