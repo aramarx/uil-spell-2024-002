@@ -1,41 +1,43 @@
-cookie:
-  expiry_days: 0
-  key: some_secret_key_for_cookie_encryption
-  name: some_cookie_name
+
 credentials:
-  usernames:
+  users:
     user5a:
-      email: aramarx.us@gmail.com
-      name: User Five A
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe  # Example hashed password
+      email: "aramarx.us@gmail.com"
+      name: "User Five A"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"  # Example hashed password
     user5b:
-      email: aramarx.us@gmail.com
-      name: User Five B
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
+      email: "aramarx.us@gmail.com"
+      name: "User Five B"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"
     user5c:
-      email: aramarx.us@gmail.com
-      name: User Five C
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
+      email: "aramarx.us@gmail.com"
+      name: "User Five C"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"
     user5t:
-      email: aramarx.us@gmail.com
-      name: User Five T
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
+      email: "aramarx.us@gmail.com"
+      name: "User Five T"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"
     user6a:
-      email: aramarx.us@gmail.com
-      name: User Six A
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
+      email: "aramarx.us@gmail.com"
+      name: "User Six A"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"
     user6b:
-      email: aramarx.us@gmail.com
-      name: User Six B
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
+      email: "aramarx.us@gmail.com"
+      name: "User Six B"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"
     user6c:
-      email: aramarx.us@gmail.com
-      name: User Six C
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
+      email: "aramarx.us@gmail.com"
+      name: "User Six C"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"
     user6t:
-      email: aramarx.us@gmail.com
-      name: User Six T
-      password: $2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe
+      email: "aramarx.us@gmail.com"
+      name: "User Six T"
+      password: "$2b$12$N3vTwJvbF1kgzqZ5WOpA6OB0MhBByC2ak1Od3j.NpDpOEjdGDKiTe"
+
+cookie:
+  expiry_days: 30
+  key: "some_secret_key_for_cookie_encryption"
+  name: "some_cookie_name"
+  
 preauthorized:
-  emails:
-    - aramarx.us@gmail.com
+  email: "aramarx.us@gmail.com"
